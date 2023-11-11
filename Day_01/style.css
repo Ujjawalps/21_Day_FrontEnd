@@ -1,0 +1,272 @@
+.subscribe-button{
+    position: relative;
+    background-color: rgb(207, 2, 2);
+    color: white;
+    border: none;
+    width: 196px;
+    height: 52px;
+    font-size: 28px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: rgb(143, 147, 143);
+    margin-right: 15px;
+    margin-bottom: 25px ;
+}
+.subscribe-button:hover{
+    transition-duration: 0.1s;
+    background-color: rgb(212, 103, 176);
+}
+.subscribe-button:active{
+    background-color: rgb(15, 130, 187);
+    box-shadow: 0 2px rgb(143, 147, 143);
+    transform: translateY(2px);
+}
+
+
+.join-button{
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    color: rgb(77, 184, 213);
+    width: 150px;
+    height: 52px;
+    font-size: 28px;
+    cursor: pointer;
+    border-color: rgb(77, 184, 213);
+    box-shadow: rgb(143, 147, 143);
+    margin-right: 15px;
+    margin-bottom: 25px ;
+}
+.join-button:hover{
+    transition-duration: 0.1s;
+    background-color: rgb(77, 184, 213);
+    color: rgb(255, 255, 255);
+}
+.join-button:active{
+    background-color: rgb(77, 184, 213);
+    transition-duration: 0.4s;
+    box-shadow: 0 2px rgb(143, 147, 143);
+    transform: translateY(2px);
+}
+
+
+.tweet-button{
+    position: relative;
+    background-color: rgb(29,155,240);
+    color: rgb(255, 255, 255);
+    height: 52px;
+    width: 180px;
+    border-radius: 26px;
+    font-size: 32px;
+    font-family: ‘Bangers’, sans-serif;
+    letter-spacing: 1.3px;
+    text-shadow: 1px 1px 2px rgb(40, 39, 39);
+    cursor: pointer;
+    border: none;
+    box-shadow: rgb(143, 147, 143);
+    margin-right: 15px;
+    margin-bottom: 25px ;
+}
+.tweet-button:hover{
+    transition-duration: 0.1s;
+    background-color: rgb(255, 255, 255);
+    color: rgb(29,155,240);
+    border: 2px solid rgb(29,155,240); 
+}
+.tweet-button:active{
+    background-color: black;
+    transition-duration: 0.7s;
+    box-shadow: 0 2px rgb(143, 147, 143);
+    transform: translateY(2px);
+    
+}
+
+
+.request-button{
+    background-color: rgb(7, 7, 7);
+    color: rgb(255, 255, 255);
+    height: 52px;
+    width: 200px;
+    font-size: 22px;  
+    cursor: pointer;
+    border: none;
+    box-shadow: rgb(143, 147, 143);
+    margin-right: 15px;
+    margin-bottom: 25px ;
+}
+.request-button:hover{
+    background-color: rgb(61, 60, 60);
+}
+.request-button:active{
+    background-color: black;
+    border: none;
+    transition-duration: 0.4s;
+    box-shadow: 0 2px rgb(159, 158, 158);
+    transform: translateY(2px);
+}
+
+
+.add-button{
+    background-color: rgb(255,216,20);
+    color: rgb(28, 27, 27);
+    height: 52px;
+    width: 290px;
+    border-radius: 26px;
+    border: none;
+    font-size: 27px;
+    cursor: pointer;
+    border: none;
+    box-shadow: rgb(143, 147, 143);
+    margin-right: 15px;
+    margin-bottom: 25px ;
+}
+.add-button:hover{
+    background-color: rgb(232, 197, 26);
+}
+.add-button:active{
+    background-color: rgb(255,216,20);
+    border: none;
+    transition-duration: 0.3s;
+    box-shadow: 0 2px rgb(159, 158, 158);
+    transform: translateY(1.3px);
+}
+
+
+.signup-button{
+    background-color: rgb(67, 171, 97);
+    color: white;
+    height: 62px;
+    width: 160px;
+    border-radius: 10px;
+    font-size: 25px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    box-shadow: rgb(143, 147, 143);
+    margin-right: 15px;
+    margin-bottom: 25px ;
+}
+.signup-button:hover{
+    background-color: white;
+    color: rgb(67, 171, 97);
+    border: 2px solid rgb(67, 171, 97);
+}
+.signup-button:active{
+    background-color: rgb(67, 171, 97);
+    color: white;
+    transition-duration: 0.2s;
+    box-shadow: 0 2px rgb(159, 158, 158);
+    transform: translateY(2px);
+}
+
+
+.getstarted-button{
+    background-color: rgb(129, 94, 182);
+    color: white;
+    height: 60px;
+    width: 180px;
+    border-radius: 6px;
+    font-size: 24px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    box-shadow: rgb(143, 147, 143);
+    margin-right: 10px;
+    margin-bottom: 25px ;
+
+}
+.getstarted-button:hover{
+    background-color: white;
+    color: rgb(129, 94, 182);
+    border: 2px solid rgb(129, 94, 182);
+}
+.getstarted-button:active{
+    background-color: rgb(129, 94, 182);
+    color: white;
+    transition-duration: 0.3s;
+    box-shadow: 0 2px rgb(159, 158, 158);
+    transform: translateY(2px);
+}
+
+
+.download-button{
+    background-color: white;
+    color: rgb(151, 129, 185);
+    height: 60px;
+    width: 180px;
+    border-radius: 6px;
+    font-size: 24px;
+    font-weight: 600;
+    border: 1.8px solid rgb(151, 129, 185);
+    cursor: pointer;
+    box-shadow: rgb(143, 147, 143);
+    margin-right: 15px;
+    margin-bottom: 25px ;
+}
+.download-button:hover{
+    background-color: rgb(151, 129, 185);
+    color: white;
+    border: none;
+}
+.download-button:active{
+    background-color: white;
+    color: rgb(151, 129, 185);
+    transition-duration: 0.4s;
+    box-shadow: 0 2px rgb(159, 158, 158);
+    transform: translateY(2px);
+}
+
+
+.apply-button{
+    background-color: rgb(19, 118, 211);
+    color: white;
+    height: 60px;
+    width: 380px;
+    border-radius: 30px;
+    font-size: 24px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    box-shadow: rgb(143, 147, 143);
+    margin-right: 10px;
+    margin-bottom: 25px ;
+}
+.apply-button:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(19, 118, 211);
+    border: 2px solid rgb(19, 118, 211);
+}
+.apply-button:active{
+    background-color: rgb(19, 118, 211);
+    color: white;
+    transition-duration: 0.05s;
+    box-shadow: 0 2px rgb(159, 158, 158);
+    transform: translateY(2px);
+}
+
+
+.save-button{
+    background-color: white;
+    color: rgb(19, 118, 211);
+    height: 60px;
+    width: 150px;
+    border-radius: 30px;
+    font-size: 24px;
+    font-weight: 600;
+    border: 2px solid rgb(19, 118, 211);
+    cursor: pointer;
+    box-shadow: rgb(143, 147, 143);
+    margin-right: 10px;
+    margin-bottom: 25px ;
+}
+.save-button:hover{
+    background-color: rgb(19, 118, 211);
+    color: white;
+    border: none;
+}
+.save-button:active{
+    background-color: white;
+    color: rgb(19, 118, 211);
+    transition-duration: 0.05s;
+    box-shadow: 0 2px rgb(159, 158, 158);
+    transform: translateY(2px);
+}
