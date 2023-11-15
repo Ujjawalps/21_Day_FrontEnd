@@ -9,4 +9,3 @@ Today I learned the basics of HTML and CSS with the help of Buttons elemet.
 
 
 =======
-![Today's work](C:\Others\My_Codes\HTML_UPS\21_Day_FrontEnd\Screenshot 2023-11-11 193707.png)
