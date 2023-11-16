@@ -1,0 +1,62 @@
+p{
+    font-family: Verdana;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.tittle-text{
+    color: black;
+    font-size: 33px;
+    font-weight: 700;
+    margin-top: 12px;
+    margin-bottom: 5px;
+}
+.sub-tittle{
+    font-size: 22px;
+    color: rgb(96, 96, 96);
+    margin-bottom: 30px;
+}
+.maim-content{
+    font-size: 22px;
+    color: rgb(19, 18, 18);
+    width: 420px;
+}
+
+
+
+.get-start-button{
+    position: relative;
+    background-color: rgb(17, 212, 72);
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 11.8px;
+    padding-bottom: 11.8px;
+    border-radius: 10px;
+    font-size: 25px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    box-shadow: rgb(143, 147, 143);
+    margin-right: 15px;
+    margin-bottom: 25px ;
+    transition: background-color 0.2s;
+    margin-top: 20px;
+
+}
+.get-start-button:hover{
+    background-color: white;
+    color: rgb(67, 171, 97);
+    border: 2px solid rgb(67, 171, 97);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10.2px;
+    padding-bottom: 10.2px;
+}
+.get-start-button:active{
+    background-color: rgb(67, 171, 97);
+    color: white;
+    transition-duration: 0.2s;
+    box-shadow: 0 2px rgb(159, 158, 158);
+    transform: translateY(2px);
+}

@@ -1,0 +1,30 @@
+p{
+    font-family: Arial;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+.current-value{
+    font-size: 40px;
+    color: black;
+    margin-top: 20px;
+    margin-bottom: 2px;
+}
+.usd{
+    font-size: 24px;
+    color: rgb(96, 96, 96);
+    margin-bottom: 2px;
+}
+.change-taday{
+    color: rgba(59, 166, 59, 0.874);
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+.end-result{
+    color: rgb(96, 96, 96);
+    font-size: 18px;
+}
+.red-color{
+    color: rgb(237, 61, 61);
+}
