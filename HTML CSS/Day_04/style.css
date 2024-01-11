@@ -1,0 +1,56 @@
+.img-ex1{
+    width: 300px;
+
+}
+.img-ex2{
+    width: 500px;
+    height: 200px;
+}
+.img-ex3{
+    width: 300px;
+    height: 200px;
+    object-fit: contain;
+    object-position: left;
+    border-width: 1px;
+    border-color: red;
+    border-style: solid;
+
+}
+.img-ex4{
+    width: 300px;
+    height: 200px;
+    object-fit: contain;
+    object-position: right;
+    border-width: 1px;
+    border-color: red;
+    border-style: solid;
+}
+.img-ex5{
+    width: 300px;
+    height: 200px;
+    object-fit: contain;
+    object-position: top;
+    border-width: 1px;
+    border-color: red;
+    border-style: solid;
+}
+.img-ex6{
+    width: 300px;
+    height: 200px;
+    object-fit: contain;
+    object-position: bottom;
+    border-width: 1px;
+    border-color: red;
+    border-style: solid;
+}
+
+.input-01{
+    font-size: 18 px;
+    margin-left: 8 px;
+    padding-left: 40 px;
+    padding-top: 5 px;
+    padding: 3 px;
+    padding-right: 6 px;
+}
+
+
