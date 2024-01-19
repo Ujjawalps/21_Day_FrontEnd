@@ -4,10 +4,15 @@
     <meta charset="UTF-8">
     <style>
         body{
-            background-color: aquamarine;
+            background-color: white;
+        }
+        .all-content{
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
         .flip-image{
-            background-color: transparent;
+            background-color: gray;
             width: 300px;
         }
         .flip-img-inner {
@@ -31,13 +36,13 @@
         }
 
         .flip-img-front {
-            background-color: #bbb;
+            background-color: gray;
             color: black;
         }
 
         .flip-img-back {
             background-color: #2980b9;
-            color: white;
+            color: rgb(44, 43, 43);
             transform: rotateY(180deg);
         }
         .img1{
@@ -71,25 +76,29 @@
     <title>EX1</title>
 </head>
 <body>
-    <div class="flip-img">
-        <div class="flip-img-inner">
-            <div class="flip-img-front">
-                <img src="IMG/My Image.jpg" alt="My Image" class="img1">
-            </div>
-            <div class="flip-img-back">
-                <H1>Hey! I'm Ujjawal</H1>
-                <p>member of WBC since</p>
-                <p>12 Dec 2022</p>
+    <div class="All-content">
+        <div class="flip-img-code">
+            <div class="flip-img">
+                <div class="flip-img-inner">
+                    <div class="flip-img-front">
+                        <img src="IMG/My Image.jpg" alt="My Image" class="img1">
+                    </div>
+                    <div class="flip-img-back">
+                        <H1>Hey! I'm Ujjawal</H1>
+                        <p>member of WBC since</p>
+                        <p>12 Dec 2022</p>
+                    </div>
+                </div>
             </div>
         </div>
+        <div>
+            <img src="IMG/My Image.jpg" alt="My Image" class="img2">
+        </div>
+        <div>
+            <img src="IMG/My Image.jpg" alt="My Image" class="img3">
+        </div>
     </div>
-    <div>
-        <img src="IMG/My Image.jpg" alt="My Image" class="img2">
-    </div>
-
-    <div>
-        <img src="IMG/My Image.jpg" alt="My Image" class="img3">
-    </div>
+    
 
 </body>
 </html>
