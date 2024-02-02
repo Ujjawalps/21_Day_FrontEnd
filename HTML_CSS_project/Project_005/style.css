@@ -1,5 +1,4 @@
 body{
- 
     height: 100%;
     margin: 0;
     background-repeat: no-repeat;
@@ -7,18 +6,18 @@ body{
 }
 
 .card {
-	 position: relative;
-	 width: 300px;
-	 height: 425px;
-	 border: 10px solid #9612eb;
-	 margin: 60px auto 0 auto;
-	 box-shadow: inset 10px 0px 15px 0px rgba(0, 0, 0, 0.1);
-     background-image: linear-gradient(to bottom, rgba(255, 255, 255), rgba(255, 255, 255, 0.5)), url("https://images.unsplash.com/photo-1527481138388-31827a7c94d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+    position: relative;
+    width: 600px;
+    height: 850px;
+    border: 10px solid #9612eb;
+    margin: 60px auto 0 auto;
+    box-shadow: inset 10px 0px 15px 0px rgba(0, 0, 0, 0.1);
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255), rgba(255, 255, 255, 0.5)), url("https://images.unsplash.com/photo-1527481138388-31827a7c94d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
 
-	background-position: center; /* Center the image */
+    background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover;
-	background-color: #e6f0e6;
+    background-color: #e6f0e6;
 }
 .card .text-container {
     width: 80%;
@@ -63,7 +62,6 @@ body{
     background-color: #41718d;
 }
 .card:hover .back {
-    
     transform: perspective(800px) rotateY(-170deg);
     box-shadow: 7px 0px 5px 0px rgba(0, 0, 0, 0.3), inset 2px 0px 15px 0px rgba(0, 0, 0, 0.1);
     background-color: #d2dcd2;
