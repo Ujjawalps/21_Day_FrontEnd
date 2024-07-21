@@ -1,0 +1,66 @@
+body{
+  background-color: rgba(0, 0, 0, 0.816);
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+p{
+  font-size: 40px;
+  margin-left: 25px;
+  text-decoration: underline overline #da8d8b;  
+}
+.containerr{
+  width: 500px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+}
+.wrapper-class{
+  position: relative;
+  width: 150px;
+  height: 150px;
+}
+.wrapper-class canvas{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+}
+.btn{
+  /* position: relative; */
+  width: 120px;
+  height: 120px;
+  border-radius: 60px;
+  border: 3px solid white;
+  background-color: transparent;
+  margin-right: 20px;
+  cursor: pointer;
+
+  transition: all 0.2s ease-in-out;
+  transform: translateY(0);
+  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+
+}
+/* .btn canvas{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+} */
+
+.btn:hover {
+  background-color: #f97263;
+  transform: translateY(-1px);
+  box-shadow: 0 7px 14px rgba(50, 50, 50, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08);
+  outline:0;
+}
+.btn:active {
+  background-color: transparent;
+  transform: translateY(1px);
+  box-shadow: 0 3px 12px -2px inset rgba(174, 165, 165, 0.25);
+}
+
+img{
+  height: 60px;
+}

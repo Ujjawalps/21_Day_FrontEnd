@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    p{
+      font-family: 'Times New Roman', Times, serif;
+      font-size: large;
+    }
+    button{
+      border: none;
+      color: rgb(252, 252, 252);
+      border-radius: 20%;
+      cursor: pointer;
+      height: 40px;
+      width: 100px;
+      font-size: large;
+    }
+    .red-button{
+      background-color: red;
+      transition: background-color 1s;
+    }
+    .red-button:hover{
+      background-color: rgb(250, 138, 138);
+      color: rgb(95, 92, 92);
+      transition-duration: 0.1s;
+    }
+    .green-button{
+      background-color: rgb(59, 252, 59);
+    }
+    .green-button:hover{
+      background-color: rgb(185, 249, 185);
+      color: rgb(95, 92, 92);
+    }
+  </style>
+</head>
+<body>
+  <button title="preview" class="red-button" onclick="alert('No previe found!')">
+    click here
+  </button>
+  <p>After accepting t&c click here tu submit 
+    <button title="submit" class="green-button" onclick="alert('Submited')">
+      Submit
+    </button>
+  </p>
+</body>
+<script>
+  // 1st way.....
+  console.log(2+2);
+  console.log(`Items (${1+1}):    $${(2095 + 799) /100}`);
+
+  let variable1 = 3;
+  console.log(variable1);
+  console.log(typeof variable1);
+
+  let calculation = (2095 + 799) /100 ;
+  console.log(calculation);
+  console.log(typeof calculation);
+
+  let message = 'hello Mr Green';
+  console.log(message);
+  console.log(typeof message);
+
+
+  // 2nd way....
+  const texRate = 10; //tex rate is 10%
+  // 3rd way...
+  var variable2 = 23;
+
+</script>
+</html>

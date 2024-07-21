@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    true
+    false
+
+    console.log(3>4);
+
+    console.log(5 == '5.00'); // true because '==' follows inter-conversion
+    console.log(5 === '5.00'); // false because '===' don't follows inter-conversion
+
+    if(3<5){
+      console.log('hello Mr!');
+    }else{
+      console.log('hello Mrs!');
+    }
+
+
+
+
+    // logical operator..
+
+    // 1) && operator...
+    console.log(true && true); // true
+    console.log(true && false);// false
+    console.log(false && true); // false
+    console.log(false && false);  // false
+
+    // 2) || operator
+    console.log(true && true);  // true
+    console.log(true && false); // true
+    console.log(false && true);  // true
+    console.log(false && false);  // false
+
+    // 3) ! operator...
+    console.log(!true);  // false
+    console.log(!false);  // true
+
+
+    // truthy and falsi value
+    if(0){
+      console.log('hi');
+    }
+    if(1){
+      console.log('hii'); 
+    }
+    //  0, '', NaN, undefined, null  ---> falsy Values
+    // anything which is not falsy value is truthy value 
+
+
+    //Ternary Operator...'?'
+    const result = true ? 'truthy' : 'falsy';
+    /*
+     if(true){
+      const result = 'truthy';
+    }else{
+      const result ='falsy';
+    }
+    */
+
+
+    // Gaurd Operator...
+    false && console.log('hello');
+    /*
+    if(true){
+      console.log('hello');
+    }
+    */
+    const message1 = false && 'hello';
+    console.log(message1);  // output: false
+
+    const message2 = true && 'hello';
+    console.log(message2);  // output: hello
+
+
+    // Default Operator...
+    const currency = undefined || 'USD';
+    console.log(currency);  //output: USD, because we didn't pick any currency(USD is default)
+    /*
+    let currency;
+    if(undefined){
+      currency = "USD";
+    }
+    */
+
+  </script>
+</body>
+</html>

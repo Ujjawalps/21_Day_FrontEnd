@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Objects</title>
+</head>
+<body>
+  <script>
+    const product = {
+      name: 'notebook',
+      price: 50,
+      type: ['A4-size', 'long', 'short'],
+      ratting: {
+        stars: 4.5,
+        count: 87
+      },// nested object
+      fun: function function1(){
+        console.log('inside the function in object');
+      }
+    }
+    console.log(product);
+    console.log(product.name);
+    console.log(product['name']); // same as above
+    console.log(product.price);
+    console.log(product.type[1]);
+    console.log(product.ratting.count)
+    product.fun();
+
+    // updating the value of the object properties
+    product.price = 55;
+    console.log(product.price);
+
+    // creating new property in the object
+    product.instock = true;
+    console.log(product);
+
+    // deleting the property from the object
+    delete product.instock;
+    console.log(product);
+
+    console.log(typeof console.log)
+  </script>
+</body>
+</html>

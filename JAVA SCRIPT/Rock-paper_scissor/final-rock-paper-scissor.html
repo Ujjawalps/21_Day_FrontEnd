@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rock-Paper-Scissor</title>
+  <link rel="stylesheet" href="rock-paper-scissors.css">
+  <!-- <link rel="stylesheet" href="rock-paper-scissor.js"> -->
+</head>
+<body>
+  <p>Rock Paper Scissor</p>
+  <div class="containerr">
+    <div class="wrapper-class">
+      <button class="btn">
+        <img src="IMG/rock-emoji.png" alt="Rock">
+      </button>
+    </div>
+    <div class="wrapper-class">
+      <button class="btn">
+        <img src="IMG/paper-emoji.png" alt="Paper">
+      </button>
+    </div>
+    <div class="wrapper-class">
+      <button class="btn">
+        <img src="IMG/scissors-emoji.png" alt="Scissor">
+      </button>
+    </div>
+  </div>
+  
+  
+
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+  <script>
+    document.getElementsByClassName("btn")[0].addEventListener("click" ,() =>{
+      let canvas = document.createElement("canvas");
+      canvas.width = 600;
+      canvas.height = 600;
+      let container = document.getElementsByClassName("wrapper-class")[0];
+      container.appendChild(canvas);
+
+      let confetti_btn = confetti.create(canvas);
+      confetti_btn().then(() => container.removeChild(canvas));
+    })
+    document.getElementsByClassName("btn")[1].addEventListener("click" ,() =>{
+      let canvas = document.createElement("canvas");
+      canvas.width = 600;
+      canvas.height = 600;
+      let container = document.getElementsByClassName("wrapper-class")[1];
+      container.appendChild(canvas);
+
+      let confetti_btn = confetti.create(canvas);
+      confetti_btn().then(() => container.removeChild(canvas));
+    })
+    document.getElementsByClassName("btn")[2].addEventListener("click" ,() =>{
+      let canvas = document.createElement("canvas");
+      canvas.width = 600;
+      canvas.height = 600;
+      let container = document.getElementsByClassName("wrapper-class")[2];
+      container.appendChild(canvas);
+
+      let confetti_btn = confetti.create(canvas);
+      confetti_btn().then(() => container.removeChild(canvas));
+
+    })
+  </script>
+  
+</body>
+</html>
